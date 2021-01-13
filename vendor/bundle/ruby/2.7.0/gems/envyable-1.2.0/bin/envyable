@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require "thor"
+
+require File.expand_path('../lib/envyable/cli', __dir__)
+
+Envyable::CLI.start
